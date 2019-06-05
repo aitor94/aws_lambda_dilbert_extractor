@@ -4,7 +4,7 @@ import requests
 import lxml.html
 
 
-def hello(event, context):
+def dilbert(event, context):
     updater = Updater(token='Your Telegram bot token')
     dispatcher = updater.dispatcher
 
